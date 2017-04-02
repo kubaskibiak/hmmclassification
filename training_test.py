@@ -1,7 +1,15 @@
-from hmmlearn import hmm
-from model_training import *
 from sklearn.externals import joblib
 
+from training.model_training import *
+
+class_list = ['class_2']
+print(class_list)
+for single_class in class_list:
+    print(class_list)
+    sequences = get_training_sequences(single_class)
+    model = train_model(sequences)
+
+    joblib.dump(model, "models/model_for_" + single_class + ".pkl")
 model = joblib.load("models/model_for_class_1.pkl")
 obser_stare=joblib.load("Output2.txt")
 print(obser_stare)
@@ -9,13 +17,19 @@ print(model)
 print(model.transmat_ )
 print(model.monitor_.converged)
 
+model2 = joblib.load("models/model_for_class_2.pkl")
+obser_stare2=joblib.load("Output2.txt")
+print(obser_stare)
+print(model)
+print(model.transmat_ )
+print(model.monitor_.converged)
 
 #obser_stare=[[(0, False, False, True), (1, False, True, False), (0, False, False, True), (1, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (1, False, True, False), (0, False, False, True), (1, False, True, False), (0, False, False, True), (1, False, True, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (1, False, True, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (1, False, True, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False)], [(0, False, False, True), (1, False, True, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (1, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (1, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (1, False, False, False)], [(0, False, False, True), (1, False, True, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (1, False, True, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (1, False, True, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (1, False, True, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (1, False, True, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (1, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (1, False, True, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (1, False, True, False), (0, False, False, True), (2, False, True, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (1, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (1, False, True, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (1, False, False, False), (0, False, False, True), (1, False, True, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False)], [(0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (1, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (1, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (1, False, True, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (1, False, True, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False), (0, False, False, True), (0, False, False, False)]]
-observations=video_analyse('videos/class_3/video_1')
+observations=video_analyse('videos/class_3/video_2')
 print(observations)
 
 print("tyle wynosi dla nowego" + str(model.score(observations)))
-print("tyle wynosi dla starego" + str(model.score(obser_stare[0])))
+print("tyle wynosi dla starego" + str(model2.score(observations)))
 print("tyle wynosi dla starego" + str(model.score(obser_stare[1])))
 print("tyle wynosi dla starego" + str(model.score(obser_stare[3])))
 
