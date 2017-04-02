@@ -23,8 +23,8 @@ def get_training_sequences(class_name):
 def train_model(all_sequences_for_video):
     X = np.concatenate(all_sequences_for_video)
     lengths = []
-    date=str(random.seed())
-    joblib.dump(all_sequences_for_video, "Output" + date+".txt")
+    random_number=str(random.seed())
+    joblib.dump(all_sequences_for_video, "Output" + random_number+".txt")
     state_number = find_state_quantity(all_sequences_for_video, 20)
     for seq in all_sequences_for_video:
         lengths.append(len(seq))
