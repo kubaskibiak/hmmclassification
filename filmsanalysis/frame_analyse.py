@@ -1,5 +1,4 @@
 from utils.utils import *
-from classes.observation import *
 
 
 def label_image(img, database_path, recognizer, detector):
@@ -9,7 +8,6 @@ def label_image(img, database_path, recognizer, detector):
     # detect faces
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     faces = detector.detect(img)
-
     many_faces = False
     is_in_DB = True
     is_close_shot = False

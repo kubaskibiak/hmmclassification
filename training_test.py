@@ -2,7 +2,7 @@ from sklearn.externals import joblib
 
 from training.model_training import *
 
-class_list = ['class_2']
+class_list = ['class_1']
 print(class_list)
 for single_class in class_list:
     print(class_list)
