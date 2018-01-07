@@ -1,0 +1,101 @@
+SHOT 1 recognized: {1}
+SHOT 2 recognized: set()
+SHOT 3 recognized: set()
+SHOT 4 recognized: set()
+SHOT 5 recognized: {1, 2}
+SHOT 6 recognized: {4}
+SHOT 7 recognized: {4}
+SHOT 8 recognized: {4}
+SHOT 9 recognized: {4}
+SHOT 10 recognized: {5}
+SHOT 11 recognized: {4, 5}
+SHOT 12 recognized: {4}
+SHOT 13 recognized: {4, 5}
+SHOT 14 recognized: {5}
+SHOT 15 recognized: {5}
+SHOT 16 recognized: {4}
+SHOT 17 recognized: {4}
+SHOT 18 recognized: {4}
+SHOT 19 recognized: {5}
+SHOT 20 recognized: set()
+SHOT 21 recognized: {5}
+SHOT 22 recognized: {5}
+SHOT 23 recognized: {5}
+SHOT 24 recognized: {5}
+SHOT 25 recognized: {8}
+SHOT 26 recognized: {8}
+SHOT 27 recognized: {9, 5}
+SHOT 28 recognized: {8, 9, 4}
+SHOT 29 recognized: {9, 5}
+SHOT 30 recognized: {5}
+SHOT 31 recognized: {9, 5}
+SHOT 32 recognized: {5}
+SHOT 33 recognized: {5}
+SHOT 34 recognized: {5}
+SHOT 35 recognized: {5}
+SHOT 36 recognized: set()
+SHOT 37 recognized: set()
+SHOT 38 recognized: {5}
+SHOT 39 recognized: {4, 5}
+SHOT 40 recognized: {4}
+SHOT 41 recognized: set()
+SHOT 42 recognized: set()
+SHOT 43 recognized: set()
+SHOT 44 recognized: set()
+SHOT 45 recognized: set()
+SHOT 46 recognized: set()
+SHOT 47 recognized: set()
+SHOT 48 recognized: {8, 9, 4}
+SHOT 49 recognized: {4}
+SHOT 50 recognized: {4, 14}
+SHOT 51 recognized: {14, 15, 16}
+SHOT 52 recognized: {4, 14, 15, 16, 17}
+SHOT 53 recognized: {14, 15, 16}
+SHOT 54 recognized: {14, 15, 16, 17}
+SHOT 55 recognized: {14, 15}
+SHOT 56 recognized: set()
+SHOT 57 recognized: set()
+SHOT 58 recognized: {14, 15, 16, 17}
+SHOT 59 recognized: {14, 15, 16, 17}
+SHOT 60 recognized: {4}
+SHOT 61 recognized: {4, 14, 15, 16, 17}
+SHOT 62 recognized: {14, 15, 16, 17, 18}
+SHOT 63 recognized: {14, 15, 16, 17}
+SHOT 64 recognized: {4, 14, 15, 16, 17, 18}
+SHOT 65 recognized: {16, 17, 14}
+SHOT 66 recognized: {14, 15, 16, 17}
+SHOT 67 recognized: {14, 15, 17}
+SHOT 68 recognized: {14, 15, 16, 17}
+SHOT 69 recognized: {14, 15, 16, 17}
+SHOT 70 recognized: {14, 15, 16, 17, 20}
+SHOT 71 recognized: {11, 14, 16, 17}
+SHOT 72 recognized: {4, 14, 15, 16, 17, 20}
+SHOT 73 recognized: {16, 14}
+SHOT 74 recognized: {14, 15, 16, 17, 18}
+SHOT 75 recognized: {14, 15, 16, 18, 19, 24}
+SHOT 76 recognized: {14, 15, 16, 17, 18, 19, 20, 24}
+SHOT 77 recognized: {14, 15, 16, 17, 20}
+SHOT 78 recognized: {9, 14, 15, 16, 17, 18}
+SHOT 79 recognized: {14, 15, 16, 17}
+SHOT 80 recognized: {14, 15, 16, 17}
+SHOT 81 recognized: {14, 15, 16, 18, 20}
+SHOT 82 recognized: {14, 15, 16, 17, 18, 19, 20}
+SHOT 83 recognized: {14, 15, 16, 17, 20}
+SHOT 84 recognized: {9, 14, 15, 16, 17, 20, 28}
+SHOT 85 recognized: {15, 16, 17, 20}
+SHOT 86 recognized: {5, 15, 16, 17, 20}
+SHOT 87 recognized: {15, 16, 20}
+SHOT 88 recognized: {14, 16, 17, 20}
+SHOT 89 recognized: {14, 16, 17, 18, 20, 27}
+SHOT 90 recognized: {14, 15, 16, 18, 19, 20, 26, 27}
+SHOT 91 recognized: {15, 16, 17, 20}
+SHOT 92 recognized: {19}
+SHOT 93 recognized: set()
+SHOT 94 recognized: set()
+SHOT 95 recognized: {9, 5}
+SHOT 96 recognized: {5}
+SHOT 97 recognized: {5}
+SHOT 98 recognized: {19, 5}
+SHOT 99 recognized: {27}
+SHOT 100 recognized: set()
+SHOT 101 recognized: set()

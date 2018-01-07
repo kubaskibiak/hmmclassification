@@ -1,0 +1,110 @@
+SHOT 1 recognized: set()
+SHOT 2 recognized: set()
+SHOT 3 recognized: {1}
+SHOT 4 recognized: {2}
+SHOT 5 recognized: {2}
+SHOT 6 recognized: {2}
+SHOT 7 recognized: {2}
+SHOT 8 recognized: {2}
+SHOT 9 recognized: {2}
+SHOT 10 recognized: {2}
+SHOT 11 recognized: set()
+SHOT 12 recognized: {2, 3}
+SHOT 13 recognized: {3, 4}
+SHOT 14 recognized: {3}
+SHOT 15 recognized: {3}
+SHOT 16 recognized: {3, 5}
+SHOT 17 recognized: set()
+SHOT 18 recognized: {3}
+SHOT 19 recognized: {3, 6}
+SHOT 20 recognized: {3}
+SHOT 21 recognized: {3, 4}
+SHOT 22 recognized: {4}
+SHOT 23 recognized: {3, 4, 7}
+SHOT 24 recognized: {3}
+SHOT 25 recognized: {2}
+SHOT 26 recognized: {2, 3}
+SHOT 27 recognized: {3, 5}
+SHOT 28 recognized: {9}
+SHOT 29 recognized: {9, 6, 7}
+SHOT 30 recognized: {11, 9, 10, 3}
+SHOT 31 recognized: {9}
+SHOT 32 recognized: {9, 13}
+SHOT 33 recognized: {9, 3, 13}
+SHOT 34 recognized: {3, 14}
+SHOT 35 recognized: {8}
+SHOT 36 recognized: {8, 7}
+SHOT 37 recognized: {8}
+SHOT 38 recognized: {8}
+SHOT 39 recognized: {8, 2}
+SHOT 40 recognized: {15}
+SHOT 41 recognized: {16, 2, 7, 15}
+SHOT 42 recognized: {7}
+SHOT 43 recognized: {17}
+SHOT 44 recognized: {8, 2, 3}
+SHOT 45 recognized: {17, 10}
+SHOT 46 recognized: {17}
+SHOT 47 recognized: {3}
+SHOT 48 recognized: set()
+SHOT 49 recognized: {3}
+SHOT 50 recognized: {3}
+SHOT 51 recognized: {3}
+SHOT 52 recognized: {3}
+SHOT 53 recognized: set()
+SHOT 54 recognized: {17, 3}
+SHOT 55 recognized: {3, 21}
+SHOT 56 recognized: set()
+SHOT 57 recognized: set()
+SHOT 58 recognized: {3}
+SHOT 59 recognized: {3}
+SHOT 60 recognized: {16, 3}
+SHOT 61 recognized: {3, 21}
+SHOT 62 recognized: {3}
+SHOT 63 recognized: {3}
+SHOT 64 recognized: {3}
+SHOT 65 recognized: {3}
+SHOT 66 recognized: {16, 3}
+SHOT 67 recognized: {16}
+SHOT 68 recognized: {3}
+SHOT 69 recognized: {9, 3}
+SHOT 70 recognized: set()
+SHOT 71 recognized: set()
+SHOT 72 recognized: {24}
+SHOT 73 recognized: {24, 21}
+SHOT 74 recognized: {14}
+SHOT 75 recognized: {9, 13, 7}
+SHOT 76 recognized: {18, 27}
+SHOT 77 recognized: {3, 27}
+SHOT 78 recognized: {27}
+SHOT 79 recognized: {3, 25, 18, 27}
+SHOT 80 recognized: {18, 3}
+SHOT 81 recognized: {2}
+SHOT 82 recognized: {3}
+SHOT 83 recognized: {3}
+SHOT 84 recognized: set()
+SHOT 85 recognized: {3}
+SHOT 86 recognized: {3}
+SHOT 87 recognized: {17, 3}
+SHOT 88 recognized: {27}
+SHOT 89 recognized: {27}
+SHOT 90 recognized: {9, 18, 27, 13}
+SHOT 91 recognized: {18}
+SHOT 92 recognized: {27}
+SHOT 93 recognized: {16, 8}
+SHOT 94 recognized: {8, 17, 2}
+SHOT 95 recognized: {16, 17, 18}
+SHOT 96 recognized: {9, 18}
+SHOT 97 recognized: {9, 10, 27, 21}
+SHOT 98 recognized: {9, 18, 21}
+SHOT 99 recognized: {24, 18, 31}
+SHOT 100 recognized: set()
+SHOT 101 recognized: {24}
+SHOT 102 recognized: {9}
+SHOT 103 recognized: {24, 34}
+SHOT 104 recognized: {24, 9, 34, 3}
+SHOT 105 recognized: {24, 2}
+SHOT 106 recognized: {24, 9, 2, 19}
+SHOT 107 recognized: {2}
+SHOT 108 recognized: {2}
+SHOT 109 recognized: set()
+SHOT 110 recognized: set()

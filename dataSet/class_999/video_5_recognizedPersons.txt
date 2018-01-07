@@ -1,0 +1,88 @@
+SHOT 1 recognized: {1}
+SHOT 2 recognized: {1, 2, 3}
+SHOT 3 recognized: {2, 3, 5}
+SHOT 4 recognized: {2, 3, 5, 6}
+SHOT 5 recognized: {3, 6, 7, 8}
+SHOT 6 recognized: {3, 4, 7, 8}
+SHOT 7 recognized: {5, 7}
+SHOT 8 recognized: {7}
+SHOT 9 recognized: {3, 7, 8}
+SHOT 10 recognized: {7}
+SHOT 11 recognized: {11, 7}
+SHOT 12 recognized: {8, 11}
+SHOT 13 recognized: {11, 6}
+SHOT 14 recognized: {6}
+SHOT 15 recognized: {3, 6}
+SHOT 16 recognized: {11, 12}
+SHOT 17 recognized: {11, 12}
+SHOT 18 recognized: {3, 6, 7, 11, 12}
+SHOT 19 recognized: {3, 6, 7, 8, 9, 11, 12, 13}
+SHOT 20 recognized: {6, 8, 14}
+SHOT 21 recognized: {14, 6}
+SHOT 22 recognized: {14, 6}
+SHOT 23 recognized: {14, 15}
+SHOT 24 recognized: {4, 6, 7, 11, 15}
+SHOT 25 recognized: {3, 6, 7, 11, 14, 15}
+SHOT 26 recognized: {8, 11, 7}
+SHOT 27 recognized: {7, 8, 14}
+SHOT 28 recognized: {15, 14, 7}
+SHOT 29 recognized: {6, 7, 14}
+SHOT 30 recognized: {6, 7, 13, 14}
+SHOT 31 recognized: {3, 6, 7, 13, 14, 18}
+SHOT 32 recognized: {5, 6, 7, 15, 18, 19}
+SHOT 33 recognized: {3, 6, 7, 14, 15, 19, 20}
+SHOT 34 recognized: {6, 7, 14, 17, 18, 19, 20}
+SHOT 35 recognized: {6, 7, 11, 14, 15}
+SHOT 36 recognized: {11, 14, 19}
+SHOT 37 recognized: {2, 11, 14, 19}
+SHOT 38 recognized: {19, 14}
+SHOT 39 recognized: {6, 7, 14, 19}
+SHOT 40 recognized: {3, 6, 7, 12, 13, 14, 15, 19, 21}
+SHOT 41 recognized: {3, 6, 7, 11, 14, 17, 21}
+SHOT 42 recognized: {3, 11}
+SHOT 43 recognized: {3, 23}
+SHOT 44 recognized: {23}
+SHOT 45 recognized: {3, 6, 7, 11, 17, 19, 23}
+SHOT 46 recognized: {3, 6, 7, 11, 19, 21, 24}
+SHOT 47 recognized: {25, 11, 6}
+SHOT 48 recognized: {6, 8, 11, 14, 15, 25}
+SHOT 49 recognized: {6, 14, 15}
+SHOT 50 recognized: {6, 7, 15, 19}
+SHOT 51 recognized: {6, 7, 15, 19, 21}
+SHOT 52 recognized: {3, 6, 7, 15, 16, 19, 21, 23}
+SHOT 53 recognized: {3, 6, 7, 14, 15, 19, 26}
+SHOT 54 recognized: {3, 6, 7, 15, 16, 19, 21, 26}
+SHOT 55 recognized: {3, 6, 7, 11, 15, 19, 24}
+SHOT 56 recognized: {3, 6, 7, 11, 15, 19, 29}
+SHOT 57 recognized: {8, 25, 11, 7}
+SHOT 58 recognized: {7, 14, 18, 20, 23, 25, 30}
+SHOT 59 recognized: {5, 7, 18, 19, 20}
+SHOT 60 recognized: {19, 20, 7}
+SHOT 61 recognized: {3, 6, 7, 19, 21, 28}
+SHOT 62 recognized: {3, 6, 7, 15, 19, 21, 26, 28}
+SHOT 63 recognized: {6, 7, 15, 18, 19, 20}
+SHOT 64 recognized: {6, 7, 15, 19}
+SHOT 65 recognized: {5, 7, 18, 20}
+SHOT 66 recognized: {3, 6, 7, 19, 21, 26, 28, 33}
+SHOT 67 recognized: {7, 18, 20}
+SHOT 68 recognized: {6, 7, 19, 25, 28, 30}
+SHOT 69 recognized: {11, 35}
+SHOT 70 recognized: {35, 3, 19, 30}
+SHOT 71 recognized: {6, 7, 14, 19}
+SHOT 72 recognized: {6, 7, 14, 15, 19}
+SHOT 73 recognized: {36, 6, 7, 12, 14, 19, 26, 28}
+SHOT 74 recognized: {36, 6, 7, 12, 14, 19, 23, 28}
+SHOT 75 recognized: {6, 7, 14, 26}
+SHOT 76 recognized: {3, 6, 7, 11, 12, 14, 19, 23, 24, 26, 36}
+SHOT 77 recognized: {36, 39, 15}
+SHOT 78 recognized: {35, 6, 39, 14, 15}
+SHOT 79 recognized: {6, 14, 15}
+SHOT 80 recognized: {40}
+SHOT 81 recognized: {36, 7, 40, 15, 19, 27}
+SHOT 82 recognized: {3, 36, 4, 7, 40, 15, 16, 19, 23, 26, 28}
+SHOT 83 recognized: {3, 7, 40, 19, 21, 23}
+SHOT 84 recognized: {3, 36, 6, 7, 40, 12, 14, 15, 17, 18, 19, 21}
+SHOT 85 recognized: {7, 40, 18, 19, 26}
+SHOT 86 recognized: {7, 18, 19, 23, 26, 40, 43}
+SHOT 87 recognized: {3, 36}
+SHOT 88 recognized: set()

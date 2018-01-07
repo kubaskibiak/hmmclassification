@@ -1,0 +1,20 @@
+SHOT 1 recognized: {1}
+SHOT 2 recognized: {2}
+SHOT 3 recognized: {1, 2}
+SHOT 4 recognized: {2, 3}
+SHOT 5 recognized: {3}
+SHOT 6 recognized: {1, 2, 3}
+SHOT 7 recognized: {2, 3, 5, 6}
+SHOT 8 recognized: {1, 3}
+SHOT 9 recognized: {3}
+SHOT 10 recognized: {2, 6}
+SHOT 11 recognized: {9}
+SHOT 12 recognized: {6}
+SHOT 13 recognized: {9, 2}
+SHOT 14 recognized: {11}
+SHOT 15 recognized: {2}
+SHOT 16 recognized: {2, 3}
+SHOT 17 recognized: {3}
+SHOT 18 recognized: {3}
+SHOT 19 recognized: {2}
+SHOT 20 recognized: {2}

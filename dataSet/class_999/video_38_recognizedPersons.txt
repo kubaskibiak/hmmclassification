@@ -1,0 +1,5 @@
+SHOT 1 recognized: set()
+SHOT 2 recognized: set()
+SHOT 3 recognized: set()
+SHOT 4 recognized: set()
+SHOT 5 recognized: set()

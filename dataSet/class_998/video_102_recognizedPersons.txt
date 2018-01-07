@@ -1,0 +1,7 @@
+SHOT 1 recognized: {1}
+SHOT 2 recognized: {1}
+SHOT 3 recognized: {1, 4}
+SHOT 4 recognized: {4}
+SHOT 5 recognized: {2, 4, 6, 8}
+SHOT 6 recognized: {2, 4, 10}
+SHOT 7 recognized: {2, 4, 6, 10}

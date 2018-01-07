@@ -1,0 +1,73 @@
+Poprawę parametrów na podstawie:
+
+http://pe.org.pl/articles/2016/9/36.pdf
+
+–  – współczynnik skalowania masek,
+używanych do wyszukiwania cech w kolejnych
+iteracjach algorytmu 
+– minNeighbors – współczynnik określający dokładność
+poszukiwań, przyjmuje wartości całkowite >= 1, im jest
+większy tym większa jest dokładność 
+
+scaleFactor=1.5 oraz minNeighbors=6. 
+
+(wydaje im się, że to i tak jest kwestia indywidualna dla każdego video  ? automaryczbe dostosowywanie?)
+
+Usuwanie błędów detekcji - w przpadku, gdy tę samą twarz wykryje dwa razy
+
+(intersect)
+
+Inna metoda klasyfikacji (drzewo dezyzyjne) - na podstawie parametrów :
+k stosunek liczby ujęć bez twarzy do liczby wszystkich ujęć : pozwala odróznić klasę C od A i B (k>0,9 dla C)
+
+s  stosunek liczby ujęć, na których pojawiły się twarze z poprzednich ujęć do liczby wszystkich ujęć, na których wykryto twarze ( s> 0.85 wykrywa klasę B)
+n stosunek liczby ujęć, na których pojawiły się nowe do liczby wszystkich ujęć, na których wykryto twarze ( n > 0.7 wykrywa klasę A)
+
+tak wysokie współczynniki z bardzo duzym prawdopodobieństwem stwierdzają, że video nalezy do danej klasy (>90 procent)
+
+Następnie poluzowuje te parametry : 
+s>0,8 i stosunek liczy ujęć, na których twarze pojawiły się dokładnie 2 ujęcia temu ( wywiady, debaty) do ujęć, gdzie twarz pojawiła się 3 lub więcej ujęśc wstecz jest wiekszy nic 0.4 (Klasa B)
+
+Jeśli powyższe warunki nie zakwalifikowały wideo to robię to na podstawie parametru k
+
+k<0.3  - klasa B
+inaczej Klasa A
+
+WYNIKI : 
+
+skuteczność to  85/102=0.8333333333333334
+skuteczność A to 42/51=0.8235294117647058
+skuteczność B to 34/43=0.7906976744186046
+skuteczność C to 9/9=1.0
+
+
+
+Plan pracy magisterskiej:
+
+Wstęp:
+	-cel i zakres pracy 
+	-wprowadzenie do zagadnienia (coś o klasyfikacji sekwencji wizyjnych)
+	-przegląd literatury, 
+	-coś o projekcie AMIS
+
+1. Pojęcie klasyfikacji oraz przegląd wybranych algorytmów do klasyfikacji:
+	-Klasa, zbiór danych trenującyh, testujących, dokładność klasyfikacji, stosowane podejścia do klasyfikacji.. itd.
+	
+2. Analiza sekwencji wizyjnych w celu uzyskania danych do klasyfikacji 
+	- Kwestie związane z uzyskaniem sekwencji - wybrane filmy z bazy AMIS, pobrane z YT. 
+	- opis algorytmu do eytkietowania ujęć każdej sekwencji wizyjnej :
+		- detekcja twarzy ( za pomoca Haar cascades) , napotkane problemy , dostrajanie parametrów, dostosowanie obrazu twarzy do rozpoznawania
+		- opis algorymu rozpoznawania  - dlaczego wybrano LBPH (nie potrzeba wielu zdjęc twarzy zeby dobrze działała - nie jest metodą opartą o statystykę)
+
+3. Opis i implementacja wybranych algorytmów klasyfikacji:
+	- podejście z HMM, opis HMM jako metody klasyfikacji, zostosowania, proces uczenia i testowania 
+	- klasyfikacja za pomocą prostego drzewa decyzyjnego 
+	- może jeszce jakas metoda klasyfikacji, np. klasyfikacja oparta o wzorce sekwencyjne (sekwencje częste)
+	
+4. Testy, wyniki, porównania, wnioski
+	- dokładność klasyfikacji, efektywność, odporność modelu itp.  (to co się uda jakoś opracować)
+5. Podsumowanie pracy
+	
+	
+	
+	

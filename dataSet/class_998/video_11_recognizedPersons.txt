@@ -1,0 +1,27 @@
+SHOT 1 recognized: set()
+SHOT 2 recognized: set()
+SHOT 3 recognized: set()
+SHOT 4 recognized: set()
+SHOT 5 recognized: set()
+SHOT 6 recognized: {1}
+SHOT 7 recognized: {1}
+SHOT 8 recognized: {1, 3}
+SHOT 9 recognized: {8, 1, 5}
+SHOT 10 recognized: {3}
+SHOT 11 recognized: {12}
+SHOT 12 recognized: {1, 12}
+SHOT 13 recognized: set()
+SHOT 14 recognized: {3}
+SHOT 15 recognized: {14}
+SHOT 16 recognized: set()
+SHOT 17 recognized: {3, 12, 14}
+SHOT 18 recognized: {16, 15}
+SHOT 19 recognized: set()
+SHOT 20 recognized: set()
+SHOT 21 recognized: set()
+SHOT 22 recognized: set()
+SHOT 23 recognized: {1, 3, 12}
+SHOT 24 recognized: {17}
+SHOT 25 recognized: set()
+SHOT 26 recognized: {1}
+SHOT 27 recognized: {1}

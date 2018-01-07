@@ -15,10 +15,13 @@ def get_observable_sequence(path, database_path, skipped):
     # recognizer = cv2.face.createFisherFaceRecognizer()
 
     cap = cv2.VideoCapture(path)
-    trainRecognizer(database_path, face_cascade, recognizer)
+
+    trainRecognizer(database_path, face_cascade, recognizer) #trenowany dla po każdym ujęciu
 
     # skipping frames
     counter = 0;
+
+    ##analizuje tylko co którąs ramkę
     skip = skipped
     # observed symbols
     observation_sequence = []
@@ -39,14 +42,16 @@ def get_observable_sequence(path, database_path, skipped):
 
         # use every skip-th frame
         if counter % skip == 0:
+
+            ######analysis of single frame
             observation, faces_from_frame ,recognized_persons = label_image(img, database_path, recognizer,detector)
+
             observation_sequence.append(observation)
 
             while len(faces_from_frame) > len(faces_to_add):
                 faces_to_add.append([])
 
             face_index = 0
-
             for face in faces_from_frame:
                 faces_to_add[face_index].append(face)
 
@@ -59,8 +64,9 @@ def get_observable_sequence(path, database_path, skipped):
 
     cap.release()
 
+    #zapobiega dodaniiu twarzy które wykryto przypadkowo (i nie sa twarzamia)
     if len(faces_to_add) > 0:
-        if len(faces_to_add[0])/(counter/skip) >0.1:
+        if len(faces_to_add[0])/(counter/skip) >0.01:
             add_new_faces(faces_to_add, database_path)
 
     return observation_sequence,person_in_image

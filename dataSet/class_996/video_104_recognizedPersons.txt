@@ -1,0 +1,30 @@
+SHOT 1 recognized: {1}
+SHOT 2 recognized: {2, 3}
+SHOT 3 recognized: {2, 3}
+SHOT 4 recognized: {2, 3}
+SHOT 5 recognized: {3, 4}
+SHOT 6 recognized: {3}
+SHOT 7 recognized: {3, 5}
+SHOT 8 recognized: {3, 4, 5, 6}
+SHOT 9 recognized: {2, 3, 4, 6, 7}
+SHOT 10 recognized: {3, 7}
+SHOT 11 recognized: {9, 6, 7}
+SHOT 12 recognized: {3, 4, 7, 10, 11, 12}
+SHOT 13 recognized: {3, 4, 7, 9, 12, 13}
+SHOT 14 recognized: {3, 7, 10, 12, 13, 14}
+SHOT 15 recognized: {14}
+SHOT 16 recognized: {12, 13, 14}
+SHOT 17 recognized: {15, 7}
+SHOT 18 recognized: {7, 13, 14, 15}
+SHOT 19 recognized: {7, 11, 13, 14, 15, 18}
+SHOT 20 recognized: {7, 11, 12, 14, 15}
+SHOT 21 recognized: {3, 12, 6, 14}
+SHOT 22 recognized: {3, 14, 15}
+SHOT 23 recognized: {18, 19, 7, 15}
+SHOT 24 recognized: {4, 7, 13, 14, 15, 19}
+SHOT 25 recognized: {3, 7, 13, 15}
+SHOT 26 recognized: {13, 6, 15}
+SHOT 27 recognized: {7, 15, 13, 23}
+SHOT 28 recognized: {3, 6, 7}
+SHOT 29 recognized: {25, 4}
+SHOT 30 recognized: {27}
